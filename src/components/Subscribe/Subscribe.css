@@ -1,0 +1,85 @@
+main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.left-side {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin-left: 100px;
+}
+
+.title {
+  font-family: 'Baloo Bhaina 2', cursive;
+  font-weight: 700;
+  color: #9F7FDB;
+  font-size: 65px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+}
+
+.input-form {
+  background-color: #9F7FDB;
+  height: 60px;
+  width: 380px;
+  border-radius: 10px;
+  padding-left: 20px;
+  margin-bottom: 40px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 14px;
+}
+
+.input-form::placeholder {
+  color: #FFF;
+}
+
+.button-group {
+  display: flex;
+  gap: 80px;
+}
+
+.go-moon {
+  background-color: #7834F3;
+  color: #E9E1FD;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Baloo Bhaina 2', cursive;
+  font-weight: 700;
+  font-size: 24px;
+  width: 250px;
+  height: 80px;
+}
+
+.more-info {
+  background-color: #9F7FDB;
+  color: #FFF;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Baloo Bhaina 2', cursive;
+  font-weight: 700;
+  font-size: 24px;
+  width: 250px;
+  height: 80px;
+}
+
+.right-side {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 60%;
+
+}

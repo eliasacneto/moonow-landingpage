@@ -1,0 +1,33 @@
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Baloo Bhaina 2', cursive;
+  width: 100%;
+  margin-top: 25px;
+
+}
+
+.logo{
+  width: 160px;
+  margin-left: 60px;
+}
+
+.header-menu{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
+  gap:30px
+}
+
+.header-menu-item{
+  list-style: none;
+  text-transform: uppercase;
+  color: #E0DAED;
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+  
+  
+
+}
